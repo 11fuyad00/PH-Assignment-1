@@ -119,6 +119,7 @@ body {
     font-size: 31px;
     margin-bottom: 40px;
     font-weight: bold;
+<<<<<<< HEAD
   }
   .section-header {
     text-align: center;
@@ -193,4 +194,6 @@ body {
     display: flex;
     justify-content: center;
     gap: 20px;
+=======
+>>>>>>> bc56f89a2ff3d12afdbae3cef928936ee049bc03
   }
