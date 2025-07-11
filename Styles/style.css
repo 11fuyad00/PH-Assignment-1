@@ -194,6 +194,49 @@ body {
     display: flex;
     justify-content: center;
     gap: 20px;
-=======
->>>>>>> bc56f89a2ff3d12afdbae3cef928936ee049bc03
   }
+ .cta-section {
+  background: white;
+  border-radius: 13px;
+  padding: 3rem 2rem 4rem 2rem;
+  box-shadow: 0 8px 24px rgb(33 33 33 / 0.07);
+  text-align: center;
+}
+.cta-title {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+.cta-subtitle {
+  font-weight: 400;
+  font-size: 0.95rem;
+  color: #7a7a8c;
+  margin-bottom: 1.75rem;
+}
+img {
+  border-radius: 48px;
+}
+.left-column {
+  font-size: 48px;
+  flex: 1;
+  margin: 0;
+}
+.right-column {
+  flex: 1;
+  max-width: 400px;
+  font-size: 20px;
+}
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  box-sizing: border-box;
+  outline: none;
+  border: 2px solid #FFFFFF;
+  border-radius: 15px;
+  box-shadow: 0px 2px 5px #000000;
+}
+.txt-primary {
+  color: #FD6E0A;
+}
