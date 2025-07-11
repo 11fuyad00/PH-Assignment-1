@@ -145,6 +145,7 @@ body {
     display: flex;
     gap: 3px;
     margin-bottom: 0.5rem;
+    
   }
   .star {
     color: #fbbf24;
@@ -194,6 +195,20 @@ body {
     display: flex;
     justify-content: center;
     gap: 20px;
+  }
+  .review-card {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 40px;
+    flex-wrap: wrap;
+    background-attachment: #ffffff;
+    padding: 20px;
+    width: 350px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+  transition: transform 0.3s ease;
   }
  .cta-section {
   background: white;
@@ -254,4 +269,19 @@ input, textarea {
 }
 .footer-section div {
   text-align: center;
+}
+nav ul li a {
+  text-align: center;
+  text-decoration: none; 
+  color: black; 
+  font-size: 18px;
+  font-weight: bold;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 40px;
+  padding: 0;
+  margin: 0;
 }
