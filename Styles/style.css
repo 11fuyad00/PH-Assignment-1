@@ -237,6 +237,21 @@ input, textarea {
   border-radius: 15px;
   box-shadow: 0px 2px 5px #000000;
 }
+
 .txt-primary {
   color: #FD6E0A;
+}
+.right-column .btn-primary {
+  height: 60px;
+  width: 400px;
+}
+.footer-section p {
+  font-size: 100px;
+  text-align: center;
+}
+.logo {
+  color: #FD6E0A;
+}
+.footer-section div {
+  text-align: center;
 }
